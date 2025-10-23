@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  color: #333;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+
+.cabecalho {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 4rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo img {
+  height: 45px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+ color: #0e333d;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 4rem 6rem;
+  color: #007b83;
+}
+
+.hero .texto {
+  flex: 1;
+  max-width: 500px;
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+  color: #333333;
+}
+
+.pesquisa {
+  border-radius: 100px;
+  background: #0E333D;
+  color: #ffffff;
+  width: 100%;
+  max-width: 205px;
+  padding: 0.8rem 1rem;
+  border: none;
+  outline: none;
+}
+
+.pesquisa::placeholder {
+  color: #ffffff;
+}
+
+.casa1 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 5rem 6rem;
+  background-color: #f8f8f8;
+}
+
+.bg-input {
+  background: linear-gradient(90deg, #FFFFFF 0%, #6F7E83 100%);
+  border-radius: 100px;
+}
+
+.sobre .casa2 img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sobre h3 {
+color: #007b83;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.sobre p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.botao {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #0E333D;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #009fa0;
+}
+
+
+.blog {
+  text-align: center;
+  padding: 5rem 6rem;
+}
+
+.blog h3 {
+ color: #007b83;  
+  font-size: 1.9rem;
+  margin-bottom: 3rem;
+}
+
+.artigos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+article {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  width: 320px;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+article:hover {
+  transform: translateY(-5px);
+}
+
+article img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+article h4 {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+article p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+
+.cta {
+  background-color: #007b83;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 10px;
+  margin: 4rem auto;
+  width: 85%;
+}
+
+.cta h3 {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+
+.cta p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #004d50;
+  color: white;
+  padding: 4rem 6rem 2rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.logonegativa img {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.logonegativa p {
+  max-width: 250px;
+  font-size: 0.9rem;
+  color: #d9d9d9;
+}
+
+.coluna h4 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.coluna ul {
+  list-style: none;
+}
+
+.coluna a {
+  color: #d9d9d9;
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  transition: 0.3s;
+}
+
+.coluna a:hover {
+  color: #ffffff;
+}
+
+.copy {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #d0d0d0;
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1.5rem;
+}
